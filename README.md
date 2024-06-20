@@ -9,12 +9,12 @@ Before you begin, ensure you have the following installed/configured on your Lin
 
 **Terraform:** Install Terraform locally on your Linux machine.
 
-**Jenkins:** Install Jenkins on your Linux machine with the necessary plugins for Azure and Terraform integration.
+**Jenkins:** Install Jenkins on your Linux machine with the necessary Azure and Terraform integration plugins.
 
 **Azure CLI:** Install Azure CLI to interact with Azure from the command line.
 
 # Jenkins Pipeline (Jenkinsfile) -
-
+```
 pipeline{
     agent any
     stages{
@@ -60,7 +60,6 @@ pipeline{
             }
                 
         }
-        
     }
-    
 }
+```

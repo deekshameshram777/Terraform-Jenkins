@@ -63,3 +63,7 @@ pipeline{
     }
 }
 ```
+# Stage Jenkins View -
+![image](https://github.com/deekshameshram777/Terraform-Jenkins/assets/156531844/c28ee5e2-f664-4a28-adfa-f093608d7f33)
+
+
